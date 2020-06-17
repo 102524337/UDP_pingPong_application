@@ -1,0 +1,22 @@
+!! Please Read the instruction below before you run a program.
+
+#################################################################################################################
+Part A. When you run a PingClient file.
+
+1) The server drop the pong messages for random number of times. 
+   So if you see a message (!! Timeout. Pong message might have been dropped. Client Closing... ...), it means that server drops the pong message.
+
+2) in the middle of the program, when it hits ping 5, the program will ask user if he/she wants to exit the program. 
+    Enter y for yes or n for no. 
+
+3) When ping messages are sent 10 times successfully, it will automatically close the program after instructing user the pings sent 10 tmes. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Part B. When you run a PingServer file. 
+
+1) It will show user an appropriate message when a pong message is sent. 
+
+2) If server ranadomly drops the message, the message (!! pong message is randomly dropped! Continue running the server... ...) will show on the screen.
+
+#######################################################################################################################
